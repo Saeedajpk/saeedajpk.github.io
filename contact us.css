@@ -1,0 +1,95 @@
+:root {
+            --primary-color: #2e7d32;
+            --secondary-color: #8bc34a;
+            --accent-color: #ff9800;
+            --light-color: #f1f8e9;
+            --text-color: #333;
+            --dark-color: #1b5e20;
+        }
+        
+        body {
+            font-family: 'Vazir', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--primary-color), var(--dark-color));
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .contact-form-container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            width: 100%;
+            max-width: 500px;
+        }
+        
+        .contact-header {
+            background: var(--primary-color);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        
+        .contact-header h2 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        
+        .contact-header p {
+            margin: 0.5rem 0 0 0;
+            opacity: 0.9;
+            font-size: 0.9rem;
+        }
+        
+        .contact-form {
+            padding: 2rem;
+        }
+        
+        .form-control {
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            padding: 12px 15px;
+            margin-bottom: 1.5rem;
+            transition: all 0.3s;
+        }
+        
+        .form-control:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.1);
+        }
+        
+        .btn-send {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: bold;
+            width: 100%;
+            transition: all 0.3s;
+            margin-top: 10px;
+        }
+        
+        .btn-send:hover {
+            background: var(--dark-color);
+        }
+        
+        .contact-info {
+            background: var(--light-color);
+            padding: 1rem 2rem;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        .contact-info p {
+            margin: 0.3rem 0;
+            font-size: 0.9rem;
+        }
+        
+        .contact-info i {
+            color: var(--primary-color);
+            width: 20px;
+            margin-left: 8px;
+        }
